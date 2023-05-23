@@ -45,7 +45,7 @@ function App() {
         invite by : <b> siddaraju S & family </b>{" "}
       </p>
        
-      <img src={img} alt="img" width="400" height="300" />
+      <img src={img} style={{borderRadius:'50%'}}  alt="img" width="400" height="300" />
     </div>
   );
 }
