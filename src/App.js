@@ -17,33 +17,32 @@ function App() {
         <AiTwotoneHeart />
         Deepa S weds <GiLinkedRings /> Jagadhish T <AiTwotoneHeart />
       </h2>
-      <p style={{backgroundColor:'yellow'}}>
+      <h4 style={{backgroundColor:'yellow'}}>
         {" "}
         <SlCalender /> on 01-06-2023{" "}
-      </p>
-      <p style={{backgroundColor:'yellow'}}>Dhare: 01-06-2023 </p>
-      <p  style={{backgroundColor:'yellow'}}>
+      </h4>
+      <h4 style={{backgroundColor:'yellow'}}>Dhare: 01-06-2023 </h4>
+      <h4  style={{backgroundColor:'yellow'}}>
         {" "}
         <BiTime /> Muhurtha : morning 10:45 AM to 11:05 AM{" "}
-      </p>
-      <p style={{backgroundColor:'yellow'}}>
+      </h4>
+      <h4 style={{backgroundColor:'yellow'}}>
         {" "}
         <GoLocation /> venue : Shree Basaveshwara Temple, sogalapalya,
         channapattana{" "}
-      </p>
+      </h4>
       <a
         target="_blank"
         href="https://maps.app.goo.gl/ZukpjfaGdVMuCsEC7"
         rel="noreferrer"
-        style={{ textDecoration: "none",backgroundColor:'yellow' }}
+        style={{ textDecoration: "none",backgroundColor:'yellow', color:'blue' }}
       >
-        Maps <SiGooglemaps />{" "}
+        Maps <SiGooglemaps />{" "} /  location
       </a>
-
-      <p style={{backgroundColor:'yellow'}}>
+      <h5 style={{backgroundColor:'yellow'}}>
         {" "}
         invite by : <b> siddaraju S & family </b>{" "}
-      </p>
+      </h5>
        
       <img src={img} style={{borderRadius:'50%'}}  alt="img" width="400" height="300" />
     </div>
