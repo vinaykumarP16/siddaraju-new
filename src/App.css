@@ -7,6 +7,10 @@
   align-items: center;
   min-width: 100%;
   min-height: 100vh;
+  background-image: url('./wedding-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 
 }
 

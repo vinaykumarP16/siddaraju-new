@@ -11,22 +11,22 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Marriage invitation <GiDiamondRing/></h1>
-      <p>
+      <h1 style={{backgroundColor:'yellow'}}>Marriage invitation <GiDiamondRing/></h1>
+      <h2 style={{backgroundColor:'yellow', color:'red'}}>
         {" "}
         <AiTwotoneHeart />
         Deepa S weds <GiLinkedRings /> Jagadhish T <AiTwotoneHeart />
-      </p>
-      <p>
+      </h2>
+      <p style={{backgroundColor:'yellow'}}>
         {" "}
         <SlCalender /> on 01-06-2023{" "}
       </p>
-      <p>Dhare: 01-06-2023 </p>
-      <p>
+      <p style={{backgroundColor:'yellow'}}>Dhare: 01-06-2023 </p>
+      <p  style={{backgroundColor:'yellow'}}>
         {" "}
         <BiTime /> Muhurtha : morning 10:45 AM to 11:05 AM{" "}
       </p>
-      <p>
+      <p style={{backgroundColor:'yellow'}}>
         {" "}
         <GoLocation /> venue : Shree Basaveshwara Temple, sogalapalya,
         channapattana{" "}
@@ -35,12 +35,12 @@ function App() {
         target="_blank"
         href="https://maps.app.goo.gl/ZukpjfaGdVMuCsEC7"
         rel="noreferrer"
-        style={{ textDecoration: "none" }}
+        style={{ textDecoration: "none",backgroundColor:'yellow' }}
       >
         Maps <SiGooglemaps />{" "}
       </a>
 
-      <p>
+      <p style={{backgroundColor:'yellow'}}>
         {" "}
         invite by : <b> siddaraju S & family </b>{" "}
       </p>
